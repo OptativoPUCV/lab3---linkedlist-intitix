@@ -13,3 +13,14 @@ list.c:32:9: error: unused variable ‘nuevaLista’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 4e4513e
+Fri 29 Mar 2024 07:50:50 PM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+test.c: In function ‘createList’:
+list.c:33:13: error: ‘*nuevaLista.head’ is used uninitialized [-Werror=uninitialized]
+   33 |   nuevaLista->head->data = NULL;
+      |   ~~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+dee7e1b
