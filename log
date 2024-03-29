@@ -24,3 +24,9 @@ list.c:33:13: error: ‘*nuevaLista.head’ is used uninitialized [-Werror=unini
 cc1: all warnings being treated as errors
 Compilation failed
 dee7e1b
+Fri 29 Mar 2024 07:51:37 PM UTC: 
+ list.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+ tests:  1|5
+total_score: 10/70
+1f08198
