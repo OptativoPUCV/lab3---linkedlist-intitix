@@ -2,3 +2,14 @@ Fri 29 Mar 2024 06:57:47 PM UTC:
  tests:  0|6
 total_score: 0/70
 e296d19
+Fri 29 Mar 2024 07:49:30 PM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:32:9: error: unused variable ‘nuevaLista’ [-Werror=unused-variable]
+   32 |   List *nuevaLista = (List *)malloc(sizeof(List));
+      |         ^~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+4e4513e
