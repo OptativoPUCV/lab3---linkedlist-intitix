@@ -278,3 +278,23 @@ Sat 30 Mar 2024 01:22:39 AM UTC:
  tests:  11|1
 total_score: 60/70
 cebf85b
+Sat 30 Mar 2024 01:26:30 AM UTC: 
+ list.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:102:3: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+  102 |   if (list->current->prev != NULL)
+      |   ^~
+list.c:104:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  104 |     nuevoNodo->next = list->current;
+      |     ^~~~~~~~~
+list.c:106:3: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+  106 |   if (list->current->next != NULL)
+      |   ^~
+list.c:108:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  108 |     nuevoNodo->prev = list->current->next;
+      |     ^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+5e9717c
