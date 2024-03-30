@@ -184,3 +184,9 @@ list.c:77:19: error: ‘nuevoNodo’ is used uninitialized [-Werror=uninitialize
 cc1: all warnings being treated as errors
 Compilation failed
 aa6944f
+Sat 30 Mar 2024 12:32:33 AM UTC: 
+ list.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+ tests:  9|3
+total_score: 35/70
+0b2e42a
